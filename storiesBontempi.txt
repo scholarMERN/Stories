@@ -1,5 +1,0 @@
-Zona in cui ci sia la possibilità di modificare, aggiungere o eliminare i dati, mediante l’uso di appositi pulsanti
-
-Possibilità tramite un apposito pulsante, inserito in apposita sezione, di creare un file xlsx con la possibilità di fare un diagramma o rappresentazione grafica dell’andamento dei voti o semplicemente mostrare un diagramma
-
-Tramite una sezione gestione in cui è possibile gestire i dati in base alle proprie esigenze come: visualizzare il voto/studente migliore o peggiore, andamento dello studente / classe (crescita/declino) per vedere se c'è un miglioramento anche in base alla situazione dell'anno precedente
