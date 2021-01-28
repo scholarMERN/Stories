@@ -1,0 +1,11 @@
+
+utente:
+- una volta fatto l'acesso si troverà i blocchi con il corso che vuole seguire(es, mate, fisica)
+- una volta scelto il corso potrà vedere una tabella con l'indentificativo del alunno(classe d'appartenenza, voti) e di fianco alla tabella ci sarà un pulsante che farà comparire un grafico (istograma )
+rappresentante l'andamento generale della classe nel corso dell'anno
+- in alto alla tabella ci saranno dei pulsanti per andare a vedere il grafico negli anni successivi di quel corso e volendo confrontarlo con i grafici degli anni passati per vedere se il livello dei partecipanti è migliorato o meno
+- si potrebbe confrontare i grafici di 2 corsi per vedere quale dei 2 sta andando meglio 
+
+(fare un grafico polare a radar nel quale mettere i diversi corsi con il numero di studenti , per vedere qual è quello più scelto )
+
+
