@@ -1,0 +1,30 @@
+1_L'utente accede da un'interfaccia di login local.
+Esso apre quindi un portale con un'interfaccia stile glassmorphism, nella quale sono presenti N blocchi per N categorie di operazioni differenti da svolgere.
+Plausibili operazioni sono, ad esempio:
+    Consultare i metadati
+    Vedere dei grafici
+    Accedere alla lista degli studenti
+    Vedere l'andamento dei voti per classi
+In alto a destra è presente la miniatura dell'immagine profilo dell'utente da questo menù è quindi possbile effettuare il logout, cambiare immagine di profilo e modificare impostazioni del proprio profilo.
+
+2_Esistono due tipi definiti di utenze. Utente "Consultatore/admin" utente "Studente", lo studente sfrutta il portale come fosse un registro elettronico mentre il gestore ha un'interfaccia per l'inserimento dei voti e un'interfaccia per l'ottenimento di un riscontro dell'andamento generale sotto forma di grafico.
+
+3_App per smartphone progettata con react native, per svolgere le medesime funzioni del portale descritto al punto 1 ma da smartphone.
+
+1_RM
+    -L'utente cerca su google il nome del sito.
+    -Compare il sito e, cliccandovi, l'utente viene portato ad una home sulla quale, cliccando su un pulsante in alto a dx, è in grado di aprire un'interfaccia di login.
+    -Eseguito l'accesso, il sistema lo porterà all'interfaccia relativa al suo grado d'utenza (Admin / Consultatore) e quindi saranno in grado di:
+    
+    1_UConsultatore
+        -Consultare i dati e i metadati cliccando su un "blocco" intitolato di conseguenza. All'apertura della nuova pagina compariranno grafici (plausibilmente istogrammi) con opzione di visualizzazione tabellare. È possbile visualizzare l'andamento per dimensione bacino d'utenza (classe, scuola, provincia ecc) con eventuale possibilità di confrontare il dato di un bacino con quello di un altro. 
+        I dati consultabili sono la media dei voti (per materia / categoria tipo scritto orale), il numero di studenti per classe e eventualmente anche le presenze / assenze.
+        
+    1_UAdmin
+        -L'admin è plausibilmente un docente di una classe e ha la possibilità di aggiugere singolarmente i voti e le assenze in un'interfaccia stile registro elettronico. Lo scopo è di fornire dati per la creazione dei grafici.
+    
+    -Gli utenti possono accedere alle impostazioni del proprio account tramite un menù a tendina posizionato in alto a dx (con la loro immagine). Qui potranno effetutare il logout e cambiare la propria immagine profilo.
+    
+    -Cliccando sul logout l'utente verrà riportato alla home.
+    
+    -IL NOME DEGLI UTENTI NON È REGISTRATO, LA "SCALA" PIÙ PICCOLA SULLA QUALE SI PUÒ VEDERE UN DATO È LA CLASSE.
