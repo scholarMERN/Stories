@@ -1,0 +1,7 @@
+PROGETTO GPOI
+STORIES
+-	L’utente, all’apertura dell’applicazione, deve visualizzare una tabella dinamica che mostra tutti i voti per anno, partendo da quello corrente. Tramite un menù, deve poter scegliere l’anno scolastico. 
+-	Andando a cliccare un’icona dedicata, l’utente viene reindirizzato in una pagina dedicata alle statistiche di quel determinato anno.
+-	L’utente, può visualizzare diverse statistiche come il grafico mostrante l’andamento dell’anno, l’andamento rispetto all’anno precedente e il confronto tra due anni. 
+-	Un utente amministratore deve essere in grado di accedere ad una pagina di login per poter andare ad aggiungere, rimuovere o modificare eventuali voti
+
