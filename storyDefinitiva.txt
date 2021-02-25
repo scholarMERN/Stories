@@ -1,18 +1,16 @@
-1_RM
-    -L'utente cerca su google il nome del sito.
-    -Compare il sito e, cliccandovi, l'utente viene portato ad una home sulla quale accede ai dati.
-    -Può accedere ad un interfaccia di login che gli permette di lavorare come utente admin. 
+(La lettera corrisponde, per le features, al story appartenente).
+
+1_Visualizzazione grafici (Il rendering effettivo dei grafici con il dato richiesto)   G
+    PRIORITA' -> 13,5
+
+2_Login (La fase di autenticazione degli utenti) L
+    PRIORITA' -> 26
     
-2_UConsultatore (Libero)
-    -Consultare i dati e i metadati cliccando su un "blocco" intitolato di conseguenza. All'apertura della nuova pagina compariranno grafici (plausibilmente istogrammi) con            opzione di visualizzazione tabellare. È possbile visualizzare l'andamento per dimensione bacino d'utenza (classe, scuola, provincia ecc) con eventuale possibilità di              confrontare il dato di un bacino con quello di un altro. 
-     I dati consultabili sono la media dei voti (per materia / categoria tipo scritto orale), il numero di studenti per classe e eventualmente anche le presenze / assenze, tasso        lavorativo e Corsi/Scuole favorite, Classifiche.
-        
-3_UAdmin (Docente)
-     -L'admin deve effettuare un login.
-     -Questo utente è plausibilmente un docente di una classe che ha la possibilità di aggiugere singolarmente i voti e le assenze in un'interfaccia stile registro elettronico.        Lo scopo è di fornire dati per la creazione dei grafici.
-    
-     -Gli utenti possono accedere alle impostazioni del proprio account tramite un menù a tendina posizionato in alto a dx (con la loro immagine). Qui potranno effetutare il            logout e cambiare la propria immagine profilo.
-    
-     -Cliccando sul logout l'utente verrà riportato alla home.
-    
-     -IL NOME DEGLI UTENTI NON È REGISTRATO, LA "SCALA" PIÙ PICCOLA SULLA QUALE SI PUÒ VEDERE UN DATO È LA CLASSE.
+3_UI Admin (Possibilita' di modificare dati e di variare impostazioni utente) A
+    PRIORITA' -> 36
+
+4_ Registrazione king e admin con otp (Inserimento "manuale" king e generazione otp per admin) K 
+    PRIORITA' -> 61
+
+5_ HomePage (Homepage dinamica e bella da vedere) H
+    PRIORITA' -> 3
